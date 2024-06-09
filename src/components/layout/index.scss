@@ -1,0 +1,38 @@
+.layout {
+  .header {
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    .name {
+      font-size: 48px;
+      font-weight: bolder;
+      cursor: pointer;
+      .name-content {
+        color: #cf1322;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+    .icon {
+      margin-left: 8px;
+      font-size: 20px;
+      text-align: right;
+    }
+    .menu {
+      min-width: 400px;
+    }
+  }
+}
+
+.bottom {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}

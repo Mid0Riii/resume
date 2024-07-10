@@ -3,4 +3,106 @@
     height: 200px;
     // background-image: ;
   }
+
+  .series {
+    position: relative;
+    padding: 24px;
+    min-width: 1600px;
+    // max-width: 1700px;
+  }
+
+  .series-1 {
+    background-color: #999;
+    .brief {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      width: 450px;
+      color: white;
+      font-size: 18px;
+      .more-btn {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .series-2 {
+    background-color: #FCFAF2;
+    .brief {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      width: 450px;
+      // color: white;
+      font-size: 18px;
+      .more-btn {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .series-3 {
+    background-color: #336774;
+    .brief {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      width: 450px;
+      color: #ccc;
+      font-size: 18px;
+      .more-btn {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .series-4 {
+    .brief {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      width: 450px;
+      // color: white;
+      font-size: 18px;
+      .more-btn {
+        margin-top: 24px;
+      }
+    }
+  }
+  .series-5 {
+    background-color: #f8f8f8;
+    .brief {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      width: 450px;
+      // color: white;
+      font-size: 18px;
+      .more-btn {
+        margin-top: 24px;
+      }
+    }
+  }
+  .series-6 {
+    .brief {
+      position: absolute;
+      top: 200px;
+      right: 100px;
+      width: 450px;
+      // color: white;
+      font-size: 18px;
+      .more-btn {
+        margin-top: 24px;
+      }
+    }
+  }
+  .series-7{
+    background-color: #4B5361;
+    color: #f0f0f0;
+    font-size: 48px;
+    text-align: center;
+    .title{
+      margin-bottom: 24px;
+    }
+  }
 }

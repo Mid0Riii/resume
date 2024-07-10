@@ -1,0 +1,23 @@
+{
+    "name": "SAMPLE",
+    "instgramURL": "https://www.instagram.com/instagram/",
+    "tiktokURL": "https://www.tiktok.com/@tiktok/",
+    "copyright": "Aldrich ©2024",
+    "works":[
+        {
+            "name":"SAMPLE",
+            "description":"samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesample",
+            "background":"https://i0.hdslb.com/bfs/archive/2abbc0c06b46bd2af718bd6ad07f0d1a9c10f064.jpg"
+        },
+        {
+            "name":"SAMPLE",
+            "description":"samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesample",
+            "background":"https://i0.hdslb.com/bfs/archive/2abbc0c06b46bd2af718bd6ad07f0d1a9c10f064.jpg"
+        },
+        {
+            "name":"SAMPLE",
+            "description":"samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesample",
+            "background":"https://i0.hdslb.com/bfs/archive/2abbc0c06b46bd2af718bd6ad07f0d1a9c10f064.jpg"
+        }
+    ]
+}

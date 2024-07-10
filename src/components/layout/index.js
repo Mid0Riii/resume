@@ -3,8 +3,11 @@ import { ConfigContext } from "../../context";
 import "./index.scss";
 import { InstagramOutlined, TikTokOutlined } from "@ant-design/icons";
 import { Menu, ConfigProvider } from "antd";
+import { useNavigate } from "react-router-dom";
+
 export const Layout = ({ children }) => {
   const config = useContext(ConfigContext);
+  const navigate = useNavigate();
   const navigation = [
     {
       label: "PORTFOLIO",
@@ -27,7 +30,7 @@ export const Layout = ({ children }) => {
     <div className="layout">
       <div className="header">
         <div className="name">
-          <span className="name-content">{config.name}</span>
+          <span className="name-content" onClick={()=>navigate('/list')}>{config.name}</span>
           <span className="icon">
             <InstagramOutlined />
             <TikTokOutlined style={{marginLeft:'4px'}} />
@@ -53,7 +56,7 @@ export const Layout = ({ children }) => {
         </div>
       </div>
       {children}
-      <div className="bottom">{config.copyright}</div>
+      {/* <div className="bottom">{config.copyright}</div> */}
     </div>
   );
 };
